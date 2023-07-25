@@ -488,7 +488,10 @@ article#features_and_companies {
     background-color: #ffffff;
     padding-bottom: 65px;
     border-bottom: 2px solid #f4f4f4;
-    section#features {
+    &:has(section#goods) {
+        margin-top: 60px !important;
+    }
+    section#features, section#goods {
         margin: 120px auto 0px;
         overflow: hidden;
         .wrapper {
@@ -641,7 +644,7 @@ article#reasons_and_prices {
     }
     section#why_choose_app, section#law_data {
         width: 100%;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
         .wrapper {
             margin: 0 auto;
             max-width: 1170px;
@@ -701,6 +704,10 @@ article#reasons_and_prices {
             .links {
                 margin-top: 30px;
                 text-align: left;
+                a {
+                    display: block;
+                    margin-bottom: 10px;
+                }
             }
             .reasonsGrid {
                 display: grid;

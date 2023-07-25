@@ -469,46 +469,57 @@ article#features_and_companies {
   padding-bottom: 65px;
   border-bottom: 2px solid #f4f4f4;
 }
-article#features_and_companies section#features {
+article#features_and_companies:has(section#goods) {
+  margin-top: 60px !important;
+}
+article#features_and_companies section#features,
+article#features_and_companies section#goods {
   margin: 120px auto 0px;
   overflow: hidden;
 }
-article#features_and_companies section#features .wrapper {
+article#features_and_companies section#features .wrapper,
+article#features_and_companies section#goods .wrapper {
   max-width: 1075px;
   margin-left: 10%;
 }
 @media screen and (max-width: 430px) {
-  article#features_and_companies section#features .wrapper {
+  article#features_and_companies section#features .wrapper,
+  article#features_and_companies section#goods .wrapper {
     margin-left: 5px;
   }
 }
-article#features_and_companies section#features .wrapper h2 {
+article#features_and_companies section#features .wrapper h2,
+article#features_and_companies section#goods .wrapper h2 {
   font-size: 36px;
   font-family: Poppins;
   font-weight: 600;
   color: #242f51;
   margin-top: 0;
 }
-article#features_and_companies section#features .wrapper h5 {
+article#features_and_companies section#features .wrapper h5,
+article#features_and_companies section#goods .wrapper h5 {
   font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
   color: #616368;
   margin-top: 30px;
 }
-article#features_and_companies section#features .wrapper .info {
+article#features_and_companies section#features .wrapper .info,
+article#features_and_companies section#goods .wrapper .info {
   display: flex;
   flex-direction: column;
   max-height: min-content;
 }
-article#features_and_companies section#features .wrapper .info .features_container {
+article#features_and_companies section#features .wrapper .info .features_container,
+article#features_and_companies section#goods .wrapper .info .features_container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 90px;
   flex-wrap: wrap;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature {
+article#features_and_companies section#features .wrapper .info .features_container .feature,
+article#features_and_companies section#goods .wrapper .info .features_container .feature {
   max-width: 480px;
   justify-content: space-between;
   align-items: center;
@@ -516,52 +527,68 @@ article#features_and_companies section#features .wrapper .info .features_contain
   flex-direction: row;
   margin-bottom: 65px;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(1) .logo {
   background-color: #ffecef;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(1) .logo svg {
   fill: #f55767;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(1) .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(1) .text h6 {
   color: #f55767;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(2) .logo {
   background-color: #f4f4ff;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(2) .logo svg {
   fill: #2500f9;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(2) .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(2) .text h6 {
   color: #2500f9;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(3) .logo {
   background-color: #e4ffee;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(3) .logo svg {
   fill: #40975f;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(3) .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(3) .text h6 {
   color: #40975f;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(4) .logo {
   background-color: #fcf6de;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(4) .logo svg {
   fill: #f0cf51;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(4) .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(4) .text h6 {
   color: #f0cf51;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(5) .logo {
   background-color: #fae6f7;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(5) .logo svg {
   fill: #f0cf51;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature:nth-child(5) .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature:nth-child(5) .text h6 {
   color: #f77ee9;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature .logo {
+article#features_and_companies section#features .wrapper .info .features_container .feature .logo,
+article#features_and_companies section#goods .wrapper .info .features_container .feature .logo {
   margin-right: 10px;
   min-width: 90px;
   height: 90px;
@@ -570,24 +597,29 @@ article#features_and_companies section#features .wrapper .info .features_contain
   align-items: center;
   justify-content: center;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature .logo svg {
+article#features_and_companies section#features .wrapper .info .features_container .feature .logo svg,
+article#features_and_companies section#goods .wrapper .info .features_container .feature .logo svg {
   width: 58px;
 }
 @media screen and (max-width: 430px) {
-  article#features_and_companies section#features .wrapper .info .features_container .feature .logo {
+  article#features_and_companies section#features .wrapper .info .features_container .feature .logo,
+  article#features_and_companies section#goods .wrapper .info .features_container .feature .logo {
     margin-right: 5px;
   }
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature .text {
+article#features_and_companies section#features .wrapper .info .features_container .feature .text,
+article#features_and_companies section#goods .wrapper .info .features_container .feature .text {
   flex-basis: 350px;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature .text h6 {
+article#features_and_companies section#features .wrapper .info .features_container .feature .text h6,
+article#features_and_companies section#goods .wrapper .info .features_container .feature .text h6 {
   font-family: Poppins;
   font-size: 20px;
   font-weight: 600;
   margin: 10px 0;
 }
-article#features_and_companies section#features .wrapper .info .features_container .feature .text p {
+article#features_and_companies section#features .wrapper .info .features_container .feature .text p,
+article#features_and_companies section#goods .wrapper .info .features_container .feature .text p {
   line-height: 26px;
   display: inline;
   margin: 0;
@@ -606,7 +638,7 @@ article#reasons_and_prices section#law_data {
 article#reasons_and_prices section#why_choose_app,
 article#reasons_and_prices section#law_data {
   width: 100%;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 article#reasons_and_prices section#why_choose_app .wrapper,
 article#reasons_and_prices section#law_data .wrapper {
@@ -682,6 +714,11 @@ article#reasons_and_prices section#why_choose_app .wrapper .links,
 article#reasons_and_prices section#law_data .wrapper .links {
   margin-top: 30px;
   text-align: left;
+}
+article#reasons_and_prices section#why_choose_app .wrapper .links a,
+article#reasons_and_prices section#law_data .wrapper .links a {
+  display: block;
+  margin-bottom: 10px;
 }
 article#reasons_and_prices section#why_choose_app .wrapper .reasonsGrid,
 article#reasons_and_prices section#law_data .wrapper .reasonsGrid {
