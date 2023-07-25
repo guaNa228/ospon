@@ -212,8 +212,9 @@ header .wrapper #topPanel span.logo {
   font-family: Poppins-Bold;
   color: #242f51;
 }
-header .wrapper #topPanel span.logo span.yellow {
-  color: #fcae61;
+header .wrapper #topPanel span.logo svg {
+  width: 90px;
+  height: 90px;
 }
 header .wrapper #topPanel svg.icon-menu {
   display: none;
