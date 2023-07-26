@@ -233,7 +233,7 @@ header .wrapper #topPanel nav a {
   color: #242f51;
   transition: color 0.3s;
 }
-header .wrapper #topPanel nav a:not(:last-child):hover {
+header .wrapper #topPanel nav a:hover {
   color: blue;
 }
 header .wrapper #topPanel nav a.try_for_free_btn {
