@@ -796,452 +796,21 @@ article#reasons_and_prices section#why_choose_app .wrapper .reasonsGrid .reason:
 article#reasons_and_prices section#law_data .wrapper .reasonsGrid .reason:nth-child(6) div.logo_wrapper {
   background: #fdeee4;
 }
-article#reasons_and_prices section#prices .wrapper {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0px 5px;
-}
-article#reasons_and_prices section#prices .wrapper h1 {
-  max-width: 575px;
-  font-size: 36px;
-  line-height: 46px;
-  color: #242f51;
-  font-family: Poppins-SemiBold;
-  margin-bottom: 40px;
-}
-article#reasons_and_prices section#prices .wrapper p {
-  max-width: 635px;
-  font-size: 16px;
-  line-height: 26px;
-  color: #616368;
-  font-family: Poppins;
-  margin-bottom: 80px;
-}
-article#reasons_and_prices section#prices .wrapper div.mode_swap {
-  box-sizing: padding-box;
-  width: 280px;
-  height: 54px;
-  padding: 2px;
-  border: 2px solid #ebebeb;
-  border-radius: 30px;
-  position: relative;
-}
-article#reasons_and_prices section#prices .wrapper div.mode_swap .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-article#reasons_and_prices section#prices .wrapper div.mode_swap .container span {
-  cursor: default;
-  transition: 0.5s;
-  z-index: 1;
-  border-radius: 30px;
-  height: 100%;
-  flex-basis: 50%;
-  line-height: 52px;
-  font-family: Poppins;
-  color: #929396;
-}
-article#reasons_and_prices section#prices .wrapper div.mode_swap .container span.active {
-  color: white;
-}
-article#reasons_and_prices section#prices .wrapper div.mode_swap span.blue_back {
-  transition: 0.5s;
-  margin: 2px;
-  position: absolute;
-  width: 140px;
-  height: 54px;
-  background: #2500f9;
-  border-radius: 30px;
-  top: 0;
-  left: 0;
-}
-article#reasons_and_prices section#prices .wrapper div.prices {
-  width: 100%;
-  margin-top: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: start;
-  flex-wrap: wrap;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card {
-  flex-basis: 310px;
-  margin-right: 45px;
-  box-shadow: 0px 0px 32px 5px rgba(34, 60, 80, 0.2);
-}
-@media screen and (max-width: 695px) {
-  article#reasons_and_prices section#prices .wrapper div.prices .price_card {
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 30px;
-  }
-}
-@media screen and (max-width: 430px) {
-  article#reasons_and_prices section#prices .wrapper div.prices .price_card {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 30px;
-  }
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card.last {
-  margin-right: 0;
-}
-@media screen and (max-width: 695px) {
-  article#reasons_and_prices section#prices .wrapper div.prices .price_card.last {
-    margin-right: 45px;
-  }
-}
-@media screen and (max-width: 430px) {
-  article#reasons_and_prices section#prices .wrapper div.prices .price_card.last {
-    margin-right: 0;
-  }
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card.annually {
-  display: none;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .main {
-  background: #f9fbfc;
-  padding-top: 65px;
-  padding-bottom: 40px;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .main h1 {
-  font-size: 18px;
-  line-height: 28px;
-  font-family: Poppins;
-  color: #999ca5;
-  margin-bottom: 30px;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .main h1 em {
-  font-size: 60px;
-  line-height: 58px;
-  font-family: Poppins-SemiBold;
-  color: #242f51;
-  font-style: normal;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .main h5 {
-  font-family: Poppins-SemiBold;
-  font-size: 20px;
-  line-height: 28px;
-  color: #242f51;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .main p {
-  margin-bottom: 0;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info {
-  padding-top: 40px;
-  padding-bottom: 25px;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info ul li {
-  margin-bottom: 35px;
-  color: #999ca5;
-  font-size: 16px;
-  font-family: Poppins;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info a.try_for_free_btn {
-  max-width: 200px;
-  margin: 0 auto;
-  text-decoration: none;
-  display: block;
-  cursor: pointer;
-  font-family: Poppins-Bold;
-  padding: 20px 40px;
-  font-size: 16px;
-  color: white;
-  background: #2500f9;
-  border-radius: 40px;
-  outline: none;
-  border: none;
-  transition: 0.5s;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info a.try_for_free_btn:hover {
-  background: #1a00ad;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info span {
-  display: block;
-  margin-top: 25px;
-  font-size: 16px;
-  font-family: Poppins;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info span a {
-  color: #2500f9;
-  text-decoration: none;
-}
-article#reasons_and_prices section#prices .wrapper div.prices .price_card .info span a:visited {
-  color: #2500f9;
-}
 article#clients_and_faq {
   padding: 30px 0px;
   border-bottom: 2px solid #f4f4f4;
 }
-article#clients_and_faq section#clients {
-  margin-bottom: 80px;
-}
-article#clients_and_faq section#clients .wrapper {
-  max-width: 1350px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-article#clients_and_faq section#clients .wrapper .map {
-  position: relative;
-  flex-basis: 55%;
-}
-@media screen and (max-width: 755px) {
-  article#clients_and_faq section#clients .wrapper .map {
-    display: none;
-  }
-}
-@media screen and (max-width: 1050px) {
-  article#clients_and_faq section#clients .wrapper .map {
-    margin-left: -10%;
-    flex-basis: 70%;
-    transform: rotate(-90deg);
-  }
-}
-article#clients_and_faq section#clients .wrapper .map img.main {
-  display: block;
-  width: 100%;
-  z-index: 0;
-  height: 100%;
-}
-article#clients_and_faq section#clients .wrapper .map img:not(:first-child) {
-  z-index: 1;
-  position: absolute;
-  border-radius: 50%;
-  object-fit: cover;
-}
-@media screen and (max-width: 1050px) {
-  article#clients_and_faq section#clients .wrapper .map img:not(:first-child) {
-    transform: rotate(90deg);
-  }
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(2) {
-  top: 20%;
-  left: 13%;
-  width: 8.08%;
-  height: 12.92%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(3) {
-  top: 2%;
-  left: 40%;
-  width: 9.42%;
-  height: 15.08%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(4) {
-  top: 45%;
-  left: 15%;
-  width: 13.46%;
-  height: 21.54%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(5) {
-  top: 30%;
-  left: 40%;
-  width: 14.81%;
-  height: 23.7%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(6) {
-  top: 70%;
-  left: 34%;
-  width: 17.5%;
-  height: 28.01%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(7) {
-  top: 49%;
-  left: 61%;
-  width: 10.77%;
-  height: 17.24%;
-}
-article#clients_and_faq section#clients .wrapper .map img:nth-child(8) {
-  top: 12%;
-  left: 75%;
-  width: 7.4%;
-  height: 11.8%;
-}
-article#clients_and_faq section#clients .wrapper .info {
-  flex-basis: 45%;
-  margin-right: 5px;
-}
-@media screen and (max-width: 755px) {
-  article#clients_and_faq section#clients .wrapper .info {
-    flex-basis: 100%;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-}
-@media screen and (max-width: 1050px) and (min-width: 756px) {
-  article#clients_and_faq section#clients .wrapper .info {
-    flex-basis: 55%;
-    margin-left: -10%;
-  }
-}
-article#clients_and_faq section#clients .wrapper .info h2 {
-  max-width: 490px;
-  font-size: 40px;
-  line-height: 50px;
-  font-family: Poppins-SemiBold;
-  color: #242f51;
-  margin-bottom: 25px;
-}
-article#clients_and_faq section#clients .wrapper .info p {
-  font-family: Poppins;
-  font-size: 16px;
-  line-height: 26px;
-  color: #616368;
-}
-article#clients_and_faq section#clients .wrapper .info .slider {
-  width: 100%;
-  height: 550px;
-  position: relative;
-  margin-top: 40px;
-  overflow: hidden;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: 0.3s;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item .rating {
-  margin-bottom: 30px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item .rating svg {
-  width: 20px;
-  height: 20px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item .rating svg.done {
-  fill: #ffcc00;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item p.theme {
-  font-size: 20px;
-  font-family: Poppins-SemiBold;
-  color: #242f51;
-  margin-bottom: 20px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item p.review {
-  font-family: Poppins;
-  font-size: 16px;
-  line-height: 26px;
-  color: #616368;
-  margin-bottom: 60px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer {
-  width: 100%;
-  height: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .author {
-  display: flex;
-  align-items: center;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .author img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-right: 30px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .author .name_post h6 {
-  font-size: 18px;
-  color: #242f51;
-  font-family: Poppins-SemiBold;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .author .name_post p {
-  margin: 0;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls span {
-  width: 1px;
-  height: 26px;
-  background: #e7e7e7;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div {
-  z-index: 1;
-  box-sizing: border-box;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  position: relative;
-  border-radius: 50%;
-  background: #dee1e6;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div.deactivated {
-  cursor: default;
-  border: 2px solid #dee1e6;
-  background: none;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div.deactivated svg {
-  fill: #dee1e6;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div.backward {
-  margin-right: 10px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div.forward {
-  margin-left: 10px;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 15px;
-  height: 50px;
-  fill: #2500f9;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div:not(.deactivated)::after {
-  z-index: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  content: '';
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item div.footer .controls div:hover:not(.deactivated)::after {
-  animation: circleSpawn 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item:nth-child(2) {
-  left: 100%;
-  visibility: hidden;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item:nth-child(3) {
-  left: 200%;
-  visibility: hidden;
-}
-article#clients_and_faq section#clients .wrapper .info .slider .slider_item:nth-child(4) {
-  left: 300%;
-  visibility: hidden;
-}
-section#download {
+article#clients_and_faq section#download {
   margin: 0 auto;
   max-width: 1385px;
 }
 @media screen and (max-width: 1400px) {
-  section#download {
+  article#clients_and_faq section#download {
     justify-content: flex-start;
     margin-left: 30px;
   }
 }
-section#download .wrapper {
+article#clients_and_faq section#download .wrapper {
   flex-basis: 100%;
   display: flex;
   flex-direction: row;
@@ -1250,29 +819,29 @@ section#download .wrapper {
   margin-left: 5%;
 }
 @media screen and (max-width: 1100px) {
-  section#download .wrapper {
+  article#clients_and_faq section#download .wrapper {
     margin-left: 0px;
     width: 100%;
   }
 }
-section#download .wrapper .info {
+article#clients_and_faq section#download .wrapper .info {
   width: 50%;
   display: flex;
   flex-direction: column;
 }
 @media screen and (max-width: 1100px) {
-  section#download .wrapper .info {
+  article#clients_and_faq section#download .wrapper .info {
     width: 100%;
   }
 }
-section#download .wrapper .info h1 {
+article#clients_and_faq section#download .wrapper .info h1 {
   font-size: 48px;
   width: fit-content;
   font-family: Poppins-SemiBold;
   color: #242f51;
   margin-bottom: 40px;
 }
-section#download .wrapper .info p {
+article#clients_and_faq section#download .wrapper .info p {
   flex-basis: 100%;
   font-size: 20px;
   line-height: 26px;
@@ -1283,7 +852,7 @@ section#download .wrapper .info p {
   align-items: center;
   justify-content: space-between;
 }
-section#download .wrapper .info p svg {
+article#clients_and_faq section#download .wrapper .info p svg {
   display: inline;
   flex-basis: 40px;
   flex-shrink: 0;
@@ -1291,20 +860,20 @@ section#download .wrapper .info p svg {
   margin-right: 30px;
   object-fit: cover;
 }
-section#download .wrapper .info p a {
+article#clients_and_faq section#download .wrapper .info p a {
   text-decoration: none;
   flex: 1;
 }
-section#download .wrapper .info p span {
+article#clients_and_faq section#download .wrapper .info p span {
   word-wrap: break-word;
   flex: 1;
 }
-section#download .wrapper svg.image {
+article#clients_and_faq section#download .wrapper svg.image {
   object-fit: cover;
   max-height: 400px;
 }
 @media screen and (max-width: 1100px) {
-  section#download .wrapper svg.image {
+  article#clients_and_faq section#download .wrapper svg.image {
     display: none;
   }
 }
