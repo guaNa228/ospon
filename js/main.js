@@ -17,6 +17,7 @@ mobileMenuOpenButton.onclick = function () {
     setTimeout(() => {
         mobileMenu.classList.add("active");
         document.querySelector("html").style.overflowY = "hidden";
+        document.querySelector("html").style.touchAction = "none";
     }, 10);
 
     setTimeout(() => {
@@ -36,6 +37,7 @@ closeMenuBtn.onclick = function () {
     mobileNav.classList.remove("active");
     closeMenuBtn.classList.remove("active");
     document.querySelector("html").style.overflowY = "scroll";
+    document.querySelector("html").style.touchAction = "auto";
     setTimeout(() => {
         mobileMenu.style.display = "none";
     }, 1000);
@@ -49,6 +51,7 @@ mobileMenuLinks.forEach((item) => {
             mobileNav.classList.remove("active");
             closeMenuBtn.classList.remove("active");
             document.querySelector("html").style.overflowY = "scroll";
+            document.querySelector("html").style.touchAction = "auto";
             setTimeout(() => {
                 mobileMenu.style.display = "none";
                 mobileMenu.style.position = "";
