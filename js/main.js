@@ -60,3 +60,7 @@ mobileMenuLinks.forEach((item) => {
     }
 });
 
+apiKey2 = "AIzaSyDaGmWKa4JsXZ-HjGw7ISLn_3namBGewQe-dfs3FdfsgE"
+var authDomain2 =`PROJECT_ID.firebaseapp.com`;
+const databaseURL2= 'https://<DATABASE_NAME>.firebaseio.com'
+let projectId2="<BUCKET>.appspot.com";
